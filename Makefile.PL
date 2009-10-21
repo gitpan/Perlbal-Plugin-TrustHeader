@@ -8,7 +8,8 @@ WriteMakefile(
   VERSION_FROM  => 'lib/Perlbal/Plugin/TrustHeader.pm',
   ABSTRACT_FROM => 'lib/Perlbal/Plugin/TrustHeader.pm',
   PREREQ_PM     => {                                      ##
-    'Perlbal' => 0,
+    'Perlbal'      => 0,
+    'Net::Netmask' => 0,
   },
 );
 
